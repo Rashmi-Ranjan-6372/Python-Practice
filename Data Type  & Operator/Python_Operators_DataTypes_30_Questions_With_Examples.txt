@@ -1,0 +1,428 @@
+========================================================================================================
+                        PYTHON CODING QUESTIONS – OPERATORS AND DATA TYPES
+                        30 Questions from Basic to Difficult, with Examples
+========================================================================================================
+
+1. INTEGER ADDITION
+Question:
+Take two integers from the user and print their sum, difference, product, and division.
+
+Example Input:
+10, 5
+
+Example Output:
+Sum = 15
+Difference = 5
+Product = 50
+Division = 2.0
+
+
+2. CHECK DATA TYPE
+Question:
+Create variables containing an integer, float, string, and Boolean. Print each value and its data type using type().
+
+Example:
+x = 10 -> <class 'int'>
+y = 10.5 -> <class 'float'>
+name = 'Python' -> <class 'str'>
+active = True -> <class 'bool'>
+
+
+3. SIMPLE CALCULATOR
+Question:
+Take two numbers and an operator (+, -, *, /) from the user and perform the operation.
+
+Example Input:
+10, 5, *
+
+Example Output:
+50
+
+
+4. EVEN OR ODD
+Question:
+Take an integer and determine whether it is even or odd using the % operator.
+
+Example Input:
+17
+
+Example Output:
+Odd
+
+
+5. DIVISION OPERATORS
+Question:
+Take two numbers and demonstrate the difference between /, //, and %.
+
+Example Input:
+17, 5
+
+Example Output:
+/ = 3.4
+// = 3
+% = 2
+
+
+6. SQUARE AND CUBE
+Question:
+Take a number and calculate its square and cube using the ** operator.
+
+Example Input:
+4
+
+Example Output:
+Square = 16
+Cube = 64
+
+
+7. SWAP TWO VARIABLES
+Question:
+Swap two variables without using a third variable.
+
+Example:
+a = 10, b = 20
+
+Output:
+a = 20
+b = 10
+
+
+8. STRING OPERATIONS
+Question:
+Take a first name and last name and print the full name and the lengths of the first name, last name, and full name.
+
+Example Input:
+John, Smith
+
+Example Output:
+Full Name = John Smith
+First Length = 4
+Last Length = 5
+
+
+9. BOOLEAN OPERATORS
+Question:
+Take two Boolean values and demonstrate and, or, and not.
+
+Example:
+True and False = False
+True or False = True
+not True = False
+
+
+10. TEMPERATURE CONVERSION
+Question:
+Take Celsius temperature and convert it to Fahrenheit.
+
+Example Input:
+25°C
+
+Example Output:
+77.0°F
+
+
+11. TOTAL AND AVERAGE
+Question:
+Take marks of 5 subjects and calculate total marks, average, and percentage.
+
+Example Input:
+80, 70, 90, 60, 100
+
+Example Output:
+Total = 400
+Average = 80
+Percentage = 80%
+
+
+12. FIND LAST DIGIT
+Question:
+Take an integer and print its last digit using the % operator.
+
+Example Input:
+4567
+
+Example Output:
+7
+
+
+13. REMOVE LAST DIGIT
+Question:
+Take an integer and remove its last digit using an arithmetic operator.
+
+Example Input:
+4567
+
+Example Output:
+456
+
+
+14. MEMBERSHIP OPERATOR
+Question:
+Given text = "Python Programming", check whether "Python", "Java", and "Programming" exist using in and not in.
+
+Example Output:
+Python -> True
+Java -> False
+Programming -> True
+
+
+15. IDENTITY OPERATORS
+Question:
+Create a = 10 and b = 10. Check a == b and a is b, and explain the difference.
+
+Example Output:
+a == b -> True
+a is b -> True for these small integer objects
+
+Note:
+== checks value, while is checks object identity.
+
+
+16. STRING REPETITION
+Question:
+Take a string and a number and repeat the string that many times using *.
+
+Example Input:
+String = Hi
+Number = 5
+
+Example Output:
+HiHiHiHiHi
+
+
+17. OPERATOR PRECEDENCE
+Question:
+Predict and verify:
+result = 10 + 5 * 2 ** 2 - 8 / 4
+
+Example Output:
+28.0
+
+Note:
+Power is evaluated first, then multiplication/division, then addition/subtraction.
+
+
+18. MIXED DATA TYPES
+Question:
+Given:
+a = 10
+b = 2.5
+c = "5"
+
+Determine the results and data types of:
+a + b
+a * b
+a * c
+
+Example Output:
+a + b = 12.5 (float)
+a * b = 25.0 (float)
+a * c = "5555555555" (str)
+
+
+19. BOOLEAN EXPRESSION
+Question:
+Take two numbers and create Boolean expressions using comparison and logical operators.
+
+Example Input:
+a = 10
+b = 20
+
+Example:
+a < b and b > 15 -> True
+
+
+20. BILL CALCULATOR
+Question:
+Take product price, quantity, discount percentage, and GST percentage and calculate the final bill.
+
+Example:
+Price = 1000
+Quantity = 3
+Discount = 10%
+GST = 18%
+
+Task:
+Calculate subtotal, discount, taxable amount, GST, and final amount.
+
+
+21. MULTIPLE OPERATORS
+Question:
+Predict:
+a = 10
+b = 20
+c = 30
+result = a + b * c / 10 - 5
+
+Example Output:
+65.0
+
+
+22. EXPRESSION COMPARISON
+Question:
+Take three numbers and calculate:
+(a + b) * c
+a + (b * c)
+(a + b) ** c
+a ** b % c
+
+Example Input:
+a = 2
+b = 3
+c = 2
+
+Example Output:
+(a + b) * c = 10
+a + (b * c) = 8
+(a + b) ** c = 25
+a ** b % c = 2
+
+
+23. COMPOUND ASSIGNMENT
+Question:
+Start with x = 10 and sequentially perform:
+x += 5
+x *= 2
+x -= 10
+x //= 3
+x **= 2
+
+Print x after each operation.
+
+Example Output:
+15
+30
+20
+6
+36
+
+
+24. TYPE CONVERSION CHALLENGE
+Question:
+Given:
+10
+20.5
+"30"
+
+Convert them appropriately and calculate their sum.
+
+Example Output:
+60.5
+
+
+25. TRUTHY AND FALSY VALUES
+Question:
+For the following values:
+[0, 1, "", "Python", None, False, True]
+
+Print each value and bool(value). Identify truthy and falsy values.
+
+Example:
+bool(0) = False
+bool(1) = True
+bool("") = False
+bool("Python") = True
+bool(None) = False
+bool(False) = False
+bool(True) = True
+
+
+26. AND / OR RETURN VALUES
+Question:
+Predict and explain:
+print(10 and 20)
+print(0 and 20)
+print(10 or 20)
+print(0 or 20)
+print("" or "Python")
+print("Hello" and "World")
+
+Example Output:
+20
+0
+10
+20
+Python
+World
+
+Note:
+In Python, and/or can return an operand instead of only True or False.
+
+
+27. TYPE CONVERSION + OPERATORS
+Question:
+Given:
+a = "10"
+b = "20"
+c = 5
+
+Produce 35 and 200 without changing the original variables, using type conversion and operators.
+
+Example:
+int(a) + int(b) + c -> 35
+int(a) * int(b) -> 200
+
+
+28. COMPLEX EXPRESSION
+Question:
+Predict:
+x = 5
+y = 2
+z = 3
+result = x + y * z ** 2 // 2 - 1
+
+Example Output:
+13
+
+Explanation:
+3 ** 2 = 9
+2 * 9 = 18
+18 // 2 = 9
+5 + 9 - 1 = 13
+
+
+29. MINI BANKING CALCULATION
+Question:
+Accept initial balance, deposit, withdrawal, and interest rate. Calculate the final balance and handle insufficient balance.
+
+Example:
+Initial Balance = 10000
+Deposit = 5000
+Withdrawal = 2000
+Interest = 5%
+
+Example Calculation:
+Balance after transactions = 13000
+Interest = 650
+Final Balance = 13650
+
+
+30. ADVANCED OPERATOR CHALLENGE
+Question:
+Predict and explain:
+
+a = 10
+b = 20
+c = 0
+d = ""
+
+result1 = a and b
+result2 = c or b
+result3 = d or "Python"
+result4 = (a > 5) and (b < 30)
+result5 = not (a == b)
+
+Example Output:
+result1 = 20
+result2 = 20
+result3 = "Python"
+result4 = True
+result5 = True
+
+Task:
+1. Identify the data type of each result.
+2. Explain why and/or do not always return Boolean values.
+3. Explain how Python evaluates these expressions.
+
+
+END OF QUESTIONS

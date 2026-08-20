@@ -1,0 +1,11 @@
+odia = input("Enter the marks of Odia: ")
+english = input("Enter the marks of English: ")
+maths = input("Enter the marks of Maths: ")
+hindi = input("Enter the marks of Hindi: ")
+general_science = input("Enter the marks of General Science: ")
+social_science = input("Enter the marks of Social Science: ")
+
+total_marks = int(odia) + int(english) + int(maths) + int(hindi) + int(general_science) + int(social_science)
+print("Total Marks: ", total_marks)
+print("Total Percentage: ", (total_marks / 600) * 100)
+print("Average Marks: ", total_marks / 6)
