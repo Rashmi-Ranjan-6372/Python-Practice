@@ -1,0 +1,407 @@
+Python Control Statements – 30 Coding Questions
+Basic to Advanced Practice with Examples
+
+==============================
+BASIC LEVEL – 1 to 10
+==============================
+
+1. Check Positive or Negative
+Question:
+Take a number from the user and check whether it is positive, negative, or zero.
+
+Example Input:
+10
+
+Example Output:
+Positive
+
+
+2. Check Even or Odd
+Question:
+Take a number and check whether it is even or odd.
+
+Example Input:
+7
+
+Example Output:
+Odd
+
+
+3. Check Adult or Minor
+Question:
+Take a person's age and print Minor if the age is below 18, otherwise print Adult.
+
+Example Input:
+20
+
+Example Output:
+Adult
+
+
+4. Find Greater Number
+Question:
+Take two numbers and print which number is greater.
+
+Example Input:
+a = 10
+b = 20
+
+Example Output:
+20 is greater
+
+
+5. Find Greatest of Two Numbers
+Question:
+Take two numbers and find the greatest using if-else.
+
+Example Input:
+a = 35
+b = 25
+
+Example Output:
+35 is greatest
+
+
+6. Check Divisibility by 5
+Question:
+Take a number and check whether it is divisible by 5.
+
+Example Input:
+25
+
+Example Output:
+Divisible by 5
+
+
+7. Check Voting Eligibility
+Question:
+Take age as input. If age is 18 or above, print Eligible to vote; otherwise print Not eligible.
+
+Example Input:
+19
+
+Example Output:
+Eligible to vote
+
+
+8. Check Pass or Fail
+Question:
+Take marks as input. If marks are 40 or above, print Pass; otherwise print Fail.
+
+Example Input:
+65
+
+Example Output:
+Pass
+
+
+9. Grade Calculator
+Question:
+Take marks and print the grade:
+90–100 = A
+80–89 = B
+70–79 = C
+60–69 = D
+40–59 = E
+Below 40 = F
+
+Example Input:
+85
+
+Example Output:
+Grade B
+
+
+10. Check Character
+Question:
+Take a character and check whether it is a vowel or consonant.
+
+Example Input:
+a
+
+Example Output:
+Vowel
+
+
+==============================
+INTERMEDIATE LEVEL – 11 to 20
+==============================
+
+11. Greatest of Three Numbers
+Question:
+Take three numbers and find the greatest using if-elif-else.
+
+Example Input:
+10, 25, 15
+
+Example Output:
+25 is greatest
+
+
+12. Check Leap Year
+Question:
+Take a year and determine whether it is a leap year.
+
+Example Input:
+2024
+
+Example Output:
+Leap Year
+
+
+13. Simple Calculator
+Question:
+Take two numbers and an operator (+, -, *, /), then perform the selected operation using if-elif.
+
+Example Input:
+10
+5
+*
+
+Example Output:
+50
+
+
+14. Electricity Bill
+Question:
+Calculate an electricity bill using these slabs:
+0–100 units = ₹5/unit
+101–200 units = ₹7/unit
+201–300 units = ₹10/unit
+Above 300 units = ₹15/unit
+
+Example Input:
+150 units
+
+Example Output:
+₹1050
+
+
+15. Number Classification
+Question:
+Take a number and determine whether it is positive even, positive odd, negative even, negative odd, or zero.
+
+Example Input:
+-7
+
+Example Output:
+Negative Odd
+
+
+16. Temperature Checker
+Question:
+Take temperature:
+Below 15 = Cold
+15–25 = Cool
+26–35 = Normal
+36–40 = Hot
+Above 40 = Very Hot
+
+Example Input:
+38
+
+Example Output:
+Hot
+
+
+17. Login System
+Question:
+Create a simple login system.
+Username = admin
+Password = 1234
+
+Print Login successful if both are correct; otherwise print Invalid username or password.
+
+Example Input:
+admin / 1234
+
+Example Output:
+Login successful
+
+
+18. Number of Days in a Month
+Question:
+Take month number and print the number of days. Handle February and leap years.
+
+Example Input:
+Month = 2
+Year = 2024
+
+Example Output:
+29 days
+
+
+19. Boolean Expression
+Question:
+Take two numbers and create Boolean expressions using comparison and logical operators.
+
+Example Input:
+a = 10
+b = 20
+
+Example Expression:
+a < b and b > 15
+
+Example Output:
+True
+
+
+20. Password Strength
+Question:
+Take a password and check:
+Length below 6 = Weak
+6–9 = Medium
+10 or more = Strong
+
+Example Input:
+Python1234
+
+Example Output:
+Strong
+
+
+==============================
+ADVANCED LEVEL – 21 to 30
+==============================
+
+21. Print Numbers Using for Loop
+Question:
+Take n as input and print numbers from 1 to n.
+
+Example Input:
+5
+
+Example Output:
+1
+2
+3
+4
+5
+
+
+22. Print Even Numbers
+Question:
+Take n and print all even numbers from 1 to n.
+
+Example Input:
+10
+
+Example Output:
+2
+4
+6
+8
+10
+
+
+23. Sum of Numbers
+Question:
+Take n and calculate the sum of numbers from 1 to n.
+
+Example Input:
+5
+
+Example Output:
+15
+
+
+24. Multiplication Table
+Question:
+Take a number and print its multiplication table from 1 to 10.
+
+Example Input:
+5
+
+Example Output:
+5 × 1 = 5
+5 × 2 = 10
+5 × 3 = 15
+...
+5 × 10 = 50
+
+
+25. Count Positive, Negative and Zero
+Question:
+Take 10 numbers from the user and count how many are positive, negative, and zero.
+
+Example Input:
+5, -2, 0, 8, -1, 3, 0, 7, -4, 6
+
+Example Output:
+Positive = 5
+Negative = 3
+Zero = 2
+
+
+26. Find Factorial
+Question:
+Take a number and calculate its factorial using a loop.
+
+Example Input:
+5
+
+Example Output:
+120
+
+
+27. Reverse a Number
+Question:
+Take a number and reverse it using a while loop.
+
+Example Input:
+12345
+
+Example Output:
+54321
+
+
+28. Check Prime Number
+Question:
+Take a number and determine whether it is a prime number.
+
+Example Input:
+17
+
+Example Output:
+Prime Number
+
+
+29. Guessing Game
+Question:
+Create a number guessing game.
+If the guess is too high, print Too High.
+If the guess is too low, print Too Low.
+If correct, print Correct!
+Stop the loop using break.
+
+Example:
+Secret Number = 50
+
+Guess: 30
+Output: Too Low
+
+Guess: 70
+Output: Too High
+
+Guess: 50
+Output: Correct!
+
+
+30. ATM Menu Program
+Question:
+Create an ATM program with options:
+1. Check Balance
+2. Deposit
+3. Withdraw
+4. Exit
+
+Start with balance = ₹10,000.
+Do not allow withdrawal greater than the balance.
+Continue until the user chooses Exit.
+Use while, if-elif-else, and break.
+
+Example Input:
+Choice = 1
+
+Example Output:
+Balance: ₹10000

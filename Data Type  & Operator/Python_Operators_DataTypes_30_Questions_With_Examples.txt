@@ -424,5 +424,3 @@ Task:
 2. Explain why and/or do not always return Boolean values.
 3. Explain how Python evaluates these expressions.
 
-
-END OF QUESTIONS
