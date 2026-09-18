@@ -1,10 +1,11 @@
 from django.db import models
-
+from django.contrib.auth.models import AbstractUser
 
 # Create your models here.
-class User(models.Model):
+class User(AbstractUser):
+    username = 
     first_name = models.CharField(max_length=10)
-    middle_name = models.CharField(max_length=10, blank = True)
+    middle_name = models.CharField(max_length=10)
     last_name = models.CharField(max_length=10)
     email = models.EmailField(max_length=200, unique = True)
     mobile = models.CharField(max_length=10, unique = True)
@@ -14,4 +15,4 @@ class User(models.Model):
     updated_at = models.DateTimeField(auto_now = True)
 
     def __str__(self):
-        return self.first_name + " " + self.last_name
+        return f"{self.first_name} {self.middle_name} {self.last_name}".strip()
