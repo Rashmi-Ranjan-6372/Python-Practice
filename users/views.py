@@ -246,3 +246,4 @@ class UserLogoutView(APIView):
                 "message": "Logout Successfully"
             },status= status.HTTP_200_OK
         )
+
